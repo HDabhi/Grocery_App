@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "651877088243",
+    "project_id": "farmsanta-fresh",
+    "storage_bucket": "farmsanta-fresh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651877088243:android:c363f3dbc3b4416c2f7086",
+        "android_client_info": {
+          "package_name": "com.farmsanta.fresh_farmsanta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO3nfQZ2QPPmEAjeho-QEjShAiJXx_cIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

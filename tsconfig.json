@@ -1,3 +1,26 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "ESNext",
+    "jsx": "react-native",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    // "baseUrl": "./src",          
+    // "paths": {
+    //   "@components/*": ["component/*"], 
+    //   "@screens/*": ["screens/*"],       
+    //   "@utils/*": ["utils/*"]          
+    // },
+    // "baseUrl": "./",
+    // "paths": {
+    //   "@component/*": ["src/component/*"],
+    //   "@screens/*": ["src/screens/*"],
+    //   "@utils/*": ["src/utils/*"],
+    //   // Add more aliases as needed
+    // },
+    "moduleResolution": "node", // Add this line
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
 }
